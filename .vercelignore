@@ -1,0 +1,6 @@
+# Vercel에 올릴 때 빼는 파일 (인증키 파일은 절대 올라가면 안 됩니다)
+.env
+.env.local
+.env*.local
+node_modules
+.next
